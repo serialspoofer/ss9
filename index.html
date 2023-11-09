@@ -1,4 +1,144 @@
-<!DOCTYPE html><html lang="en"><head>
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: auto;
+        }
+
+        #particles-js {
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div id="particles-js"></div>
+
+    <script>
+        particlesJS('particles-js', {
+            "particles": {
+                "number": {
+                    "value": 80,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
+                    }
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                    "stroke": {
+                        "width": 0,
+                        "color": "#000000"
+                    },
+                    "polygon": {
+                        "nb_sides": 5
+                    },
+                    "image": {
+                        "src": "img/github.svg",
+                        "width": 100,
+                        "height": 100
+
+                    }
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                    "anim": {
+                        "enable": false,
+                        "speed": 1,
+                        "opacity_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                    "anim": {
+                        "enable": false,
+                        "speed": 40,
+                        "size_min": 0.1,
+                        "sync": false
+                    }
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 6,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                    "attract": {
+                        "enable": false,
+                        "rotateX": 600,
+                        "rotateY": 1200
+                    }
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "grab"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "grab": {
+                        "distance": 200,
+                        "line_linked": {
+                            "opacity": 1
+                        }
+                    },
+                    "bubble": {
+                        "distance": 400,
+                        "size": 40,
+                        "duration": 2,
+                        "opacity": 8,
+                        "speed": 3
+                    },
+                    "repulse": {
+                        "distance": 200
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                    "remove": {
+                        "particles_nb": 2
+                    }
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+</html>
+
+
+
+<!--MainCode-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Serial Spoofer</title>
@@ -11,9 +151,9 @@
 
     <meta content="serialspoofer.com - Products" property="twitter:title">
     <meta content="Purchase Serial Spoofer Now!" property="twitter:description">
-    
+
     <meta name="theme-color" content="#000000">
-    
+
     <meta property="og:type" content="website">
     <meta content="summary_large_image" name="twitter:card">
 
@@ -63,10 +203,16 @@
                         <p>Unleash Your Stealth: Where Unseen Means Unconquered - Your Trusted Haven for Undetected Spoofing Solutions.</p>
                     </div>
 
-                    <a class="scrollto" href="#products"><button data-aos="fade-up-right" class="btn btn-dark">PURCHASE
-                            </button></a>
-                    <a class="scrollto" href="#faq"><button data-aos="fade-up-left" class="btn btn-dark">FAQ
-                            </button></a>
+                    <a class="scrollto" href="#products">
+                        <button data-aos="fade-up-right" class="btn btn-dark">
+                            PURCHASE
+                        </button>
+                    </a>
+                    <a class="scrollto" href="#faq">
+                        <button data-aos="fade-up-left" class="btn btn-dark">
+                            FAQ
+                        </button>
+                    </a>
                 </div>
                 <div class="col-12 col-lg-6">
                     <img class="main-image" src="images/header.png" data-aos="fade-in" alt="home-screen">
@@ -89,9 +235,9 @@
                             <span class="">
                                 <i class=""></i>
                             </span>
-                            <h4>&nbsp;Self Coded</h4>
+                            <h4>�&nbsp;Self Coded</h4>
                         </div>
-                        <p>We take immense pride in being a self-coded provider, where every aspect of our software is crafted and developed in-house.</p>
+                        <p>We take immense pride in being a self coded provider.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 pt-4">
@@ -100,20 +246,9 @@
                             <span class="">
                                 <i class=""></i>
                             </span>
-                            <h4>&nbsp;Updates</h4>
+                            <h4>�&nbsp;Updates</h4>
                         </div>
-                        <p>We prioritize maintenance and enhancement of our software to prevent potential vulnerabilities or detections.</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-12 pt-4"> 
-                    <div class="feature-item" data-aos="fade-in">
-                        <div class="d-flex">
-                            <span class="">
-                                <i class=""></i>
-                            </span>
-                            <h4>&nbsp;Setup</h4>
-                        </div>
-                        <p>For the average user it is around 2-7 minutes, for someone not as experienced using computers our staff is here to help.</p>
+                        <p>We constently update to prevent potential vulnerabilities or detections.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 pt-4">
@@ -122,9 +257,9 @@
                             <span class="">
                                 <i class=""></i>
                             </span>
-                            <h4>&nbsp;Lowest Prices</h4>
+                            <h4>�&nbsp;Setup</h4>
                         </div>
-                        <p>We take pride in being one of the most cost-effective providers in the market, offering exceptional value for your hard-earned money.</p>
+                        <p>For the average user it is around 3 - 5 minutes.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 pt-4">
@@ -133,10 +268,9 @@
                             <span class="">
                                 <i class=""></i>
                             </span>
-                            <h4>&nbsp;Support</h4>
+                            <h4>�&nbsp;Lowest Prices</h4>
                         </div>
-                        <p>Our dedicated support team is available around the clock, providing 24/7
-                                support to assist you with any questions via discord or live chat.</p>
+                        <p>We take pride in being one of the most cost-effective providers in the market.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-12 pt-4">
@@ -145,10 +279,24 @@
                             <span class="">
                                 <i class=""></i>
                             </span>
-                            <h4>&nbsp;Instant Delivery</h4>
+                            <h4>�&nbsp;Support</h4>
                         </div>
-                        <p>Get access to your products or services immediately upon purchase, ensuring you can start
-                            enjoying them without delay.</p>
+                        <p>
+                            Our dedicated support team is available 24/7.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 pt-4">
+                    <div class="feature-item" data-aos="fade-in">
+                        <div class="d-flex">
+                            <span class="">
+                                <i class=""></i>
+                            </span>
+                            <h4>�&nbsp;Instant Delivery</h4>
+                        </div>
+                        <p>
+                            Get access to your products or services immediately upon purchase.
+                        </p>
                     </div>
                 </div>
 
@@ -172,7 +320,7 @@
                                     <span class="">
                                         <i class=""></i>
                                     </span>
-                                    <h4>&nbsp;BattlEye & Easy Anti-Cheat Spoofer</h4>
+                                    <h4>�&nbsp;BattlEye & Easy Anti-Cheat Spoofer</h4>
                                 </div>
 
                                 <p>Supports Windows 10 (1809 to the latest 22h2) and Windows 11 (up to its first 22000 build).</p>
@@ -185,36 +333,36 @@
                         </div>
                     </div>
                 </div>
-                 <!----
-                <div class="col-lg-6 col-12 pt-4">
-                    <div class="feature-item" data-aos="zoom-out">
-                        <div class="row">
-                            <div class="col-lg-6 col-12">
-                                <div class="d-flex">
-                                    <span class="circle-background">
-                                        <i class="fas fa-tornado"></i>
-                                    </span>
-                                    <h4>&nbsp;Klar R6S <span class="highlight">full</span></h4>
+                <!----
+                        <div class="col-lg-6 col-12 pt-4">
+                            <div class="feature-item" data-aos="zoom-out">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="d-flex">
+                                            <span class="circle-background">
+                                                <i class="fas fa-tornado"></i>
+                                            </span>
+                                            <h4>�&nbsp;Klar R6S <span class="highlight">full</span></h4>
+                                        </div>
+
+                                        <p>Klar's Full edition isn't one your opponents will take lightly, track them through walls while having the computer aim for you or shoot at them no matter where you're shooting!</p>
+
+                                        <button id="BattlEye--EAC-Spoofer" data-sellpass-product-path="KlarFull092" data-sellpass-domain="serialspoofer.sellpass.io" class="btn btn-dark w-100 mb-3">PURCHASE</button>
+                                    </div>
+                                    <div class="col-lg-6 col-12 text-center">
+                                        <img class="product-image" src="images/solis-color.png" width="250px" alt="product-image">
+                                    </div>
                                 </div>
-
-                                <p>Klar's Full edition isn't one your opponents will take lightly, track them through walls while having the computer aim for you or shoot at them no matter where you're shooting!</p>
-
-                                <button id="BattlEye--EAC-Spoofer" data-sellpass-product-path="KlarFull092" data-sellpass-domain="serialspoofer.sellpass.io" class="btn btn-dark w-100 mb-3">PURCHASE</button>
-                            </div>
-                            <div class="col-lg-6 col-12 text-center">
-                                <img class="product-image" src="images/solis-color.png" width="250px" alt="product-image">
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>-->
+                </div>-->
     </section>
 
     <section id="faq">
         <div class="container">
             <div class="main-text">
-                <h4 class="section-font font-weight-bold" data-aos="fade-in">FAQ</h4> 
+                <h4 class="section-font font-weight-bold" data-aos="fade-in">FAQ</h4>
                 <p data-aos="fade-in">Get the answers to our most frequent questions.</p>
             </div>
 
@@ -226,7 +374,7 @@
                             <div class="faq-question">IF THE PRODUCT DOESN'T WORK, WILL I GET COMPENSATED?</div>
                         </div>
                         <div class="faq-answer">
-                            <p>At our company, your satisfaction is our priority. If, for any reason, the product does not function as intended or fails to meet your expectations, rest assured that you will be eligible for a refund. We understand the importance of delivering products that perform reliably and align with your needs.</p>
+                            <p>At our company, your satisfaction is our priority. If, for any reason, the product does not function as intended or fails to meet your expectations, rest assured that you will be eligible for a refund.</p>
                         </div>
                     </div>
                 </div>
@@ -254,12 +402,12 @@
                 </div>
                 <div class="col-12 col-lg-6 pt-4">
                     <div class="feature-item" data-aos="fade-in">
-                        <div class="faq-item"> 
+                        <div class="faq-item">
                             <div class="icon-container"><i class=""></i></div>
                             <div class="faq-question">WILL MY PRODUCT GET INSTANTLY DELIVERED TO MY EMAIL?</div>
                         </div>
                         <div class="faq-answer">
-                            <p>Your product key will be instantly delivered to the email address associated with your purchase. Upon completing the transaction, you can expect immediate delivery of the key to your inbox, allowing you swift access to your purchase.</p>
+                            <p>Your product key will be instantly delivered to the email address associated with your purchase. If you have any issues please contact support.</p>
                         </div>
                     </div>
                 </div>
@@ -268,35 +416,37 @@
     </section>
 
     <footer id="footer">
-        <p class="text-center"> Copyright ©
+        <p class="text-center">
+            Copyright ©
             </script>2023 <strong>serialspoofer.com</strong> All Rights Reserved.
         </p>
     </footer>
 
     <!-- JS Imports -->
-                        <script src="js/bootstrap.bundle.min.js"></script>
-                        <script src="js/fontawesome.min.js"></script>
-                        <script src="js/jquery.js"></script>
-                        <script src="js/utils.js"></script>
-                        <script src="js/index.js"></script>
-                        <script src="js/aos.js"></script>
-                        <script>
-                            AOS.init();
-                        </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
-                        <!--Start of Tawk.to Script-->
-                        <script type="text/javascript">
-                            var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
-                            (function () {
-                                var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
-                                s1.async = true;
-                                s1.src = 'https://embed.tawk.to/654bf7e5f2439e1631ed3e47/1heoc0ml7';
-                                s1.charset = 'UTF-8';
-                                s1.setAttribute('crossorigin', '*');
-                                s0.parentNode.insertBefore(s1, s0);
-                            })();
-                        </script>
-                        <!--End of Tawk.to Script-->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/654bf7e5f2439e1631ed3e47/1heoc0ml7';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 
-</body></html>
+</body>
+</html>
